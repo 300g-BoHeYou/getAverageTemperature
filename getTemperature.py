@@ -33,7 +33,7 @@ qingdao_average_temperature = []
 for day in range(15,32):
     qingdao_average_temperature.append(getAverageTemperature("qingdao","202207"+'%02d'%day))
 # 8月
-for day in range(1,15):
+for day in range(1,16):
     qingdao_average_temperature.append(getAverageTemperature("qingdao","202208"+'%02d'%day))
 
 
